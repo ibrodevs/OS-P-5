@@ -1,0 +1,18 @@
+# Finite starvation demonstration for strict preemptive priority.
+# Smaller number = higher priority. LOW waits behind a long stream of high-priority work.
+LOW 0 6 10
+H01 0 3 0
+H02 2 3 0
+H03 4 3 0
+H04 6 3 0
+H05 8 3 0
+H06 10 3 0
+H07 12 3 0
+H08 14 3 0
+H09 16 3 0
+H10 18 3 0
+H11 20 3 0
+H12 22 3 0
+H13 24 3 0
+H14 26 3 0
+H15 28 3 0
